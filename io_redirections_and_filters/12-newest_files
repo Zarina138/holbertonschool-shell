@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --time=mod | grep '^-' | head -10 | cut -d' ' -f9-
+ls -1t --time=mod . 2>/dev/null | head -10
